@@ -1,0 +1,34 @@
+
+/* banner section styles here  */
+@media (max-width:600px) {
+    
+    .banner-section{ 
+        flex-direction: column;
+        border-radius: 0%;
+        height: 100%;
+       background-repeat: no-repeat;
+       background-size: cover;
+       margin: auto;
+       
+    }
+    .banner-container{
+        max-width: 80%;
+    }
+    .banner-button-types{
+    flex-direction: column;
+    }
+
+    .banner-btn{
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+        margin: .6 auto;
+    }
+    .banner-btn-orange{
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+        margin: .6 auto;
+    }
+
+}
