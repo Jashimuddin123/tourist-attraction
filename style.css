@@ -11,7 +11,7 @@
     background-image: url(./Images/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-      max-width: 1100px;
+      max-width: 1000px;
     margin: auto;
     height: 90vh;
     position: sticky;
@@ -64,3 +64,46 @@
    color: grey;
    font-size: .8rem;
 }
+
+/* bannner section ends here */
+
+/* popular touris place section start here */
+.popular-section{
+    max-width: 1000px;
+    margin: 2rem  auto;
+    display: flex;
+gap: 3rem;
+    justify-content: space-between;
+}
+.popular-container{
+    flex: 1;
+}
+.popular-title{
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+   margin-bottom: 1rem;
+}
+.popular-container  p ,ul ,li{
+   color: gray;
+    padding: .8rem 0;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+.popular-btn{
+    background-color:#FF5400 ;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    padding: .7rem 1.6rem;
+    border-radius: 4px;
+}
+.popular-img{
+    flex: 1;
+}
+.popular-img img{
+    width: 100%;
+    height: 100%;
+}
+/* popular touris place section ends here */

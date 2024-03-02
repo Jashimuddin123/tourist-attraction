@@ -30,5 +30,19 @@
         width: 300px;
         margin: .6 auto;
     }
+  
+/* popular section styles start here */
+.popular-section{
+    flex-direction: column;
+}
+
+.popular-container{
+margin: auto 2rem;
+}
+.popular-img{
+    margin: auto 2rem;
+}
+/* popular section styles ends here */
+
 
 }
