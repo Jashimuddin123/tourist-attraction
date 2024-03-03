@@ -44,5 +44,62 @@ margin: auto 2rem;
 }
 /* popular section styles ends here */
 
+/* destination section start here */
+.destination-section{
+    max-width: 1000px;
+    margin: auto 4rem;
+}
+.maldives-title{
+    position: relative;
+    bottom: 8rem;
+   left: 8rem;
+  
+    color: white;
+    font-size: 1.4rem;
+}
+
+.indonesia-title{
+    position: relative;
+    bottom: 8rem;
+    left: 8rem;
+    color: white;
+    font-size: 1.4rem;
+}
+.srilanka h2{
+    position: relative;
+    bottom: 6rem;
+    left: 5rem;
+    color: white;
+    font-size: 1.4rem;
+}
+.america h2{
+    position: relative;
+    bottom: 6rem;
+    left: 4rem;
+    color: white;
+    font-size: 1.4rem;
+}
+.kashmir h2{
+    position: relative;
+    bottom: 6rem;
+    left: 2rem;
+    color: white;
+    font-size: 1.4rem;
+}
+.bangladesh h2{
+    position: relative;
+    bottom: 7rem;
+    left: 5rem;
+    color: white;
+    font-size: 1.8rem;
+}
+.bandorban h2{
+    position: relative;
+    bottom: 7rem;
+    left: 8rem;
+    color: white;
+    font-size: 1.8rem;
+}
+/* destination section ends here */
 
 }

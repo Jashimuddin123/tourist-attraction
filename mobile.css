@@ -5,6 +5,7 @@
     .banner-section{ 
         flex-direction: column;
         border-radius: 0%;
+        width: 100%;
         height: 100%;
        background-repeat: no-repeat;
        background-size: cover;
@@ -44,5 +45,103 @@ margin: auto 1.4rem;
 }
 /* popular section styles ends here */
 
+/* chose destination section styles start here */
+.destination-section{
+    /* width: 1000px; */
+  
+   width: 100%;
+
+    display: flex;
+    margin: 3rem 7rem;
+    padding: 0 3rem;
+   
+    flex-direction: column;
 }
 
+.destination-title {
+   
+    text-align: center;
+}
+.destination-description{
+
+text-align: center;
+font-size: 1rem;
+}
+.first-div{
+   flex-direction: column;
+}
+.maldives img{
+    width: 100%;
+}
+.indonesia img{
+    width: 100%;
+}
+.maldives-title{
+    position: relative;
+    bottom: 8rem;
+   left: 10rem;
+  
+    color: white;
+    font-size: 1.8rem;
+}
+
+.indonesia-title{
+    position: relative;
+    bottom: 9rem;
+    left: 10rem;
+    color: white;
+    font-size: 1.8rem;
+}
+.secound-div{
+flex-direction: column;
+}
+.srilanka  img{
+    width: 100%;
+    }
+    .america img{
+        width: 100%;
+    }
+    .kashmir img{
+        width: 100%;
+       
+    }
+    .srilanka h2{
+        position: relative;
+        bottom: 10rem;
+        left: 9rem;
+        color: white;
+        font-size: 1.8rem;
+    }
+    .america h2{
+        position: relative;
+        bottom: 9rem;
+        left: 8rem;
+        color: white;
+        font-size: 1.8rem;
+    }
+    .kashmir h2{
+        position: relative;
+        bottom: 14rem;
+        left: 10rem;
+        color: white;
+        font-size: 1.8rem;
+    }
+
+.third-div{
+    flex-direction: column;
+}
+.bangladesh h2{
+    position: relative;
+    bottom: 9rem;
+    left: 10rem;
+    color: white;
+    font-size: 1.8rem;
+}
+.bandorban h2{
+    position: relative;
+    bottom: 7rem;
+    left: 10rem;
+    color: white;
+    font-size: 1.8rem;
+}
+}

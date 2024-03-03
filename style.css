@@ -107,3 +107,110 @@ gap: 3rem;
     height: 100%;
 }
 /* popular touris place section ends here */
+
+/* destination section styles start here */
+.destination-section{
+    max-width: 1000px;
+    margin: 6rem auto;
+    display: flex;
+    flex-direction: column;
+}
+.destination-title{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.destination-description{
+    font-size: 1rem;
+    text-align: center;
+    color: gray;
+    margin-bottom: 1rem;
+}
+.first-div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.maldives img{
+    width: 100%;
+}
+.maldives-title{
+    position: relative;
+    bottom: 9rem;
+    left: 12rem;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.indonesia-title{
+    position: relative;
+    bottom: 9rem;
+    left: 12rem;
+    color: white;
+    font-size: 1.8rem;
+}
+.indonesia img{
+    width: 100%;
+}
+.secound-div{
+    display: flex;
+}
+.srilanka  img{
+width: 90%;
+}
+.america img{
+    width: 90%;
+}
+.kashmir img{
+    width: 90%;
+   
+}
+.srilanka h2{
+    position: relative;
+    bottom: 9rem;
+    left: 7rem;
+    color: white;
+    font-size: 1.8rem;
+}
+.america h2{
+    position: relative;
+    bottom: 9rem;
+    left: 8rem;
+    color: white;
+    font-size: 1.8rem;
+}
+.kashmir h2{
+    position: relative;
+    bottom: 9rem;
+    left: 4rem;
+    color: white;
+    font-size: 1.8rem;
+}
+.third-div{
+    display: flex;
+  gap: 2rem;
+
+}
+.bangladesh img{
+    width: 100%;
+}
+.bandorban img{
+    width: 100%;
+}
+.bangladesh h2{
+    position: relative;
+    bottom: 9rem;
+    left: 9rem;
+    color: white;
+    font-size: 1.8rem;
+}
+.bandorban h2{
+    position: relative;
+    bottom: 9rem;
+    left: 12rem;
+    color: white;
+    font-size: 1.8rem;
+}
+/* destination section styles ends here */
