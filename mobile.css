@@ -1,7 +1,17 @@
 
 /* banner section styles here  */
 @media (max-width:600px) {
-    
+    /* nav bar styles start here */
+    nav{
+        flex-direction: column;
+      max-width: 1000px;
+      margin: auto;
+        height: 30vh;
+    }
+    .nav-title{
+        margin-top: .5rem;
+    }
+    /* navbar styles ends here */
     .banner-section{ 
         flex-direction: column;
         border-radius: 0%;
@@ -164,6 +174,15 @@ flex-direction: column;
     padding: 1rem 8rem;
 }
 /* why chose section styles ends  here */
+
+/* maps section setrt  */
+.row{
+    flex-direction: column;
+}
+.fam{
+    width: 50%;
+}
+/* maps section ends  */
 /* deals and discount section styles here */
 .discount-container{
 margin-left: 5rem;

@@ -2,8 +2,46 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+  
 
+}
+/* nav styles */
+nav{
+    max-width: 1000px;
+    height: 50px;
+    display: flex;
+   margin: auto;
+   justify-content: space-between;
+    align-items: center;
+}
+.nav-ul{
+    display: flex;
+    margin-left: .5rem;
+
+}
+.nav-ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 10px;
+   font-weight: 400;
+}
+.nav-ul a{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.active{
+    color: #FF5400;
+}
+.nav-span{
+    color: #FF5400;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+}
+.nav-title i{
+    font-size: 2rem;
+}
 /* banner section styles here */
 .banner-section{
     background: linear-gradient(to left, #010b13b0, #0c0c0c);
@@ -12,9 +50,10 @@
     background-repeat: no-repeat;
     background-size: cover;
       max-width: 1000px;
-    margin: auto;
+    margin: 2rem auto;
     height: 90vh;
     position: sticky;
+    border-radius: 15px;
   
     display: flex;
     flex-direction: column;
@@ -59,6 +98,9 @@
      margin: .8rem;
      font-size: .9rem;
      color: #fff;
+}
+.find{
+    color: white;
 }
 .banner-btn span{
    color: grey;
@@ -307,6 +349,52 @@ justify-content: center;
 
 /* why chose section styles ends here */
 
+/* contact styles start here */
+.contact{
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 1%;
+    background: #595b83;
+   
+ }
+ .contact h1{
+text-align: center;
+font-size: 2rem;
+font-weight: bold;
+color: #fff;
+margin-bottom: 1rem ;
+ }
+ .row{
+    display: flex;
+ }
+ .map-container{
+    flex: 1;
+    background-color: #fff;
+ }
+ .ifam{
+    width: 100%;
+    height: 100%;
+ }
+ .contacts-container{
+flex: 1;
+ }
+ .contact-details{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+ 
+ }
+ .map{
+    width: 100%;
+    height: 250px;
+ }
+ .contact-details p address {
+    font-size: 0.8rem;
+ }
+ 
+ /* contact styles ends here */
+    
+
 /* deasl and discount styles start here */
 .deal-discount-section{
 max-width: 1000px;
@@ -388,6 +476,49 @@ opacity: .8;
     border-radius: 4px;
 }
 /* deasl and discount styles ends here */
+
+/* our food section strt here */
+/* #menu-section{
+    padding: 1%;
+}
+.card-body{
+    text-align: center;
+
+}
+.card-body img{
+   
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.item-description{
+    background-color: lightgrey;
+}
+.item-name{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+.item-description >p{
+    text-align: center;
+ font-size: 0.8rem;
+ padding: 10px;
+ font-weight: bold;
+}
+.card{
+ 
+   transition:  0.4s;
+}
+.card:hover{
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+.icons-star{
+   color: rgb(226, 123, 55)
+} */
+/* our food section ends here */
 
 /* deals and discount styles start here */
 .deal-discount--second-section{
