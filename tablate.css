@@ -106,7 +106,8 @@ margin: auto 2rem;
 .discount-container{
     margin-left: 5rem;
     width: 100%;
-       height: 100vh;
+       height: 100%;
+       padding: 5rem 0;
     }
     .deals-discount-container{
         position: relative;
@@ -121,4 +122,53 @@ margin: auto 2rem;
         flex-direction: row;
         align-items: center;
     }
+
+    /* deals and  discount secount styles start here */
+    .discount-secound-container{
+        margin-left: 5rem;
+        width: 100%;
+           height: 100%;
+           padding: 5rem 0; 
+        }
+        .deals-discount-secound-container{
+            position: relative;
+         width: 60%;
+          top: 25%;
+           left: 5%;
+        
+        }
+        .clock,
+        .user,
+        .location{
+            flex-direction: row;
+            align-items: center;
+        }
+
+
+        /* form section styles start here */
+        .form-section{
+            flex-direction: row;
+            margin-left: 6rem;
+        }
+        .form{
+            width: 100%;
+        }
+        .form-img{
+            width: 100%;
+        }
+        .form-img img{
+            width: 100%;
+        }
+        .save-up{
+            background-color: #FF5400;
+            text-align: center;
+            color: white;
+            position: relative;
+            bottom: 8rem;
+            left: 4rem;
+            width: 50%;
+            border-radius: 6px;
+            
+        }
+        /* form section styles ends here */
 }
