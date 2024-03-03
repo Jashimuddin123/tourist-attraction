@@ -214,3 +214,175 @@ width: 90%;
     font-size: 1.8rem;
 }
 /* destination section styles ends here */
+/* why chose section styles start here */
+.why-chose-section{
+    max-width: 1000px;
+    margin: auto;
+   
+}
+
+.chose-title{
+    font-size: 2rem;
+    text-align: center;
+}
+.chose-description{
+    font-size: 1rem;
+    color: gray;
+    text-align: center;
+}
+.all-container{
+display: flex;
+justify-content: center;
+    align-self: center;
+    gap: 2rem;
+    padding: 2rem .5rem;
+}
+.house-container{
+    background-color: bisque;
+    padding: .5rem .5rem;
+    border-radius: 10px;
+    flex: 1;
+}
+.house-container h2{
+    font-size: 1.3rem;
+    padding:  0 1rem;
+}
+.house-container p{
+    color: gray;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.house-container img{
+    width: 15%;
+    margin: .5rem 1rem;
+    
+    }
+.maps-container{
+    background-color: rgba(189, 254, 255, 0.918);
+    padding: .5rem .5rem;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.maps-container img{
+    width: 15%;
+    margin: .5rem 1rem;
+    }
+    .maps-container h2{
+        font-size: 1.3rem;
+        padding:  0 1rem;
+    }
+    .maps-container p{
+        color: gray;
+           padding: 1rem;
+         }
+
+    .best-container img{
+       width: 15%;
+       
+        margin: .5rem 1rem;
+    }
+    .best-container h2{
+        font-size: 1.3;
+    }
+
+    .best-container-div{
+        display: flex;
+        background-color:rgb(233, 218, 197);
+        width: 50%;
+        margin: auto;
+        justify-content: center;
+        padding: .5rem .5rem;
+        border-radius: 10px;
+    }
+    .best-container h2{
+        font-size: 1.3rem;
+        padding:  0 1rem;
+    }
+ .best-container p{
+    color: gray;
+    font-size: 1rem;
+    padding: 1rem;
+ }
+
+/* why chose section styles ends here */
+
+/* deasl and discount styles start here */
+.deal-discount-section{
+max-width: 1000px;
+margin: 4rem auto;
+}
+.deals-title{
+    text-align: center;
+    font-size: 2rem;
+    margin: .2rem;
+}
+.deals-description{
+    text-align: center;
+    color: gray;
+    font-size: 1rem;
+    margin: 1rem;
+}
+.discount-container{
+    background-image: url(./Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 80vh;
+}
+.deals-discount-container{
+    position: relative;
+ width: 40%;
+top: 25%;
+left: 50%;
+padding: 2rem 0;
+opacity: .8;
+  background-color: #fff;
+  border-radius: 10px;
+    z-index: calc(2 );
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+}
+.clock{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: space-between;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: space-between;
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: space-between;
+}
+.clock .user .location i ,i{
+    color: #FF5400;
+    font-size: 1rem;
+}
+.deals-sub-title{
+    margin: .6rem 2rem;
+}
+.deals-sub-description{
+    margin: .6rem 2rem;
+    color: gray;
+}
+.price{
+    margin: .6rem 2rem;
+    color: #FF5400;
+}
+.deals-btn{
+    background-color: #FF5400;
+    padding: .6rem 1rem;
+    margin: 0 2rem;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+/* deasl and discount styles ends here */

@@ -144,4 +144,44 @@ flex-direction: column;
     color: white;
     font-size: 1.8rem;
 }
+
+/* why chose section styles start  here */
+.all-container{
+    flex-direction: column;
+   margin-left: 3rem;
+ 
+}
+.house-container{
+    padding: 3rem;
+}
+.maps-container{
+    padding: 3rem;
+}
+
+.best-container{
+  
+    
+    padding: 1rem 8rem;
+}
+/* why chose section styles ends  here */
+/* deals and discount section styles here */
+.discount-container{
+margin-left: 5rem;
+width: 100%;
+   height: 100vh;
+}
+.deals-discount-container{
+    position: relative;
+ width: 60%;
+top: 25%;
+left: 30%;
+
+}
+.clock,
+.user,
+.location{
+    flex-direction: row;
+    align-items: center;
+}
+
 }
