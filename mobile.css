@@ -266,4 +266,10 @@ color: white;
     
 }
 /* form section styles ends here */
+/* footer section */
+footer{
+    max-width: 1000px;
+    margin-left: 50px;
+    padding-left: 0 4rem;
+}
 }

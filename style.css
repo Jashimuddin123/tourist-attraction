@@ -479,6 +479,7 @@ color: white;
     display: flex;
     justify-content: center;
     gap: 3rem;
+    margin-bottom: 3rem;
 }
 .form-title{
     font-size: 1rem.6rem;
@@ -543,4 +544,67 @@ input{
     
 }
 /* form section styles ends here */
+footer{
+    background-color: aliceblue;
+  max-width: 1100px;
+   margin: auto;
+ padding: 2rem;
+ border-radius: 10px;
+    /* margin-top: 3rem;
+    padding: 3rem 0; */
+}
+.logo-container{
+   width: 200px;
+    margin: auto;
+    display: flex;
+  justify-content: center;
 
+    align-items: center;
+
+}
+.footer-title{
+    margin: .6rem auto;
+}
+.logo-container img{
+    width: 34px;
+}
+.footer-hr{
+    width: 70%;
+    margin: 1rem 0;
+    margin: auto;
+
+}
+.footer-description{
+  width: 50%; 
+text-align: center;
+ margin-bottom: 1rem;
+ margin: auto;
+   margin-bottom: 25px;
+  
+
+ 
+    color: gray;
+}
+.footer-icons {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    color: black;
+}
+.footer-icons i{
+    color: black;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+.footer-sub-descrition{
+    font-size: 1rem;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    
+}
+.span{
+    color: #FF5400;
+    font-weight: bold;
+}
